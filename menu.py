@@ -28,7 +28,7 @@ def EscolhaAcao(G,inicio):
 
     elif escolha == 4:
         for vertice, cor in c.items():
-            print(f"{vertice} → Cor {cor}")
+            print(f"{vertice} -> Cor {cor}")
 
     elif escolha == 5:
         fim = time.time()
